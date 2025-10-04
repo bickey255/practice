@@ -45,3 +45,18 @@ cons[0].onclick =()=>{
     }
     console.log("Keep on trying");
 }
+
+//create a toggle button which change to backgroud colore of display darklight and light to dark on single button...
+const btn1 = document.querySelector("#btn");
+let currmood ="light";
+btn1.addEventListener("click", () => {
+    if(currmood==="light"){
+        console.log("dark");
+        document.querySelector("body").style.background="black";
+        currmood="dark";
+    }else{
+        console.log("light");
+        document.querySelector("body").style.background="white";
+        currmood="light";
+    }
+})
