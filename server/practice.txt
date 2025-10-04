@@ -1,0 +1,4 @@
+ 1----Index.js and script.html is linked together
+2--index.html and script.js is linked together 
+3--most important thing is done under server file
+4--https://github.com/bickey255/practice.git
