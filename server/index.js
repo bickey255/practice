@@ -51,7 +51,7 @@ const btn1 = document.querySelector("#btn");
 let currmood ="light";
 btn1.addEventListener("click", () => {
     if(currmood==="light"){
-        console.log("dark");
+        console.log("dark"); 
         document.querySelector("body").style.background="black";
         currmood="dark";
     }else{

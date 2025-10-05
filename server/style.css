@@ -18,3 +18,19 @@ section{
 #btn1{
 
 } 
+/* you can set weight value between 100-900 lowest to higest */
+h1{
+  font-weight: 100;
+}
+
+h2{
+  font-weight: 300;
+}
+
+h3{
+  font-weight: 500;
+}
+
+h4{
+  font-weight: 900;
+}
