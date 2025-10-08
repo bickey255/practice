@@ -1,5 +1,9 @@
+
+
+
 body{
   background-color: yellow;
+  padding: 15px;
 }
 section{
   display: flex;

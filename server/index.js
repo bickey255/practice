@@ -60,3 +60,18 @@ btn1.addEventListener("click", () => {
         currmood="light";
     }
 })
+
+// swaping the two number 
+let a=2;
+let b=3;
+a=a+b;
+b=a-b;
+a=a-b;
+console.log(a,b);
+
+
+//printing the number from 1to100 except multiple of 5 and 10:
+for(let i=1; i<=100; i++){
+    if(i%5===0||i%10===0)continue
+    console.log(i);
+}
